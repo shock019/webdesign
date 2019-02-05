@@ -1,0 +1,23 @@
+body{
+  background-color: blue;
+  font-family: 'Fahkwang', sans-serif;
+  font-size: 24px;
+}
+div{
+  width: 50vw;
+  margin: 50px auto;
+  color: yellow;
+}
+h1 {
+  color: red;
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+h3{
+  text-align: center;
+}
+p{
+  text-indent: 50px;
+}
