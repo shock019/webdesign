@@ -1,5 +1,5 @@
 body{
-  background-color: blue;
+  background-color: teal;
   font-family: 'Fahkwang', sans-serif;
   font-size: 24px;
 }
@@ -9,7 +9,7 @@ div{
   color: yellow;
 }
 h1 {
-  color: red;
+  color: black;
   text-align: center;
 }
 h2{
