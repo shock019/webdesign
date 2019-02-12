@@ -1,0 +1,119 @@
+body {
+
+}
+div {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  float: left;
+
+}
+
+
+.redsquare
+{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  float: left;
+}
+.bluesquare
+{
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  float: left;
+}
+.greensquare
+{
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  float: left;
+}
+.redcircle
+{
+width: 100px;
+height: 100px;
+background-color: red;
+border-radius: 50%;
+}
+.blackcircle
+{
+width: 100px;
+height: 100px;
+background-color: black;
+border-radius: 50%;
+}
+.bluecircle
+{
+width: 100px;
+height: 100px;
+background-color: blue;
+border-radius: 50%;
+}
+.greencircle
+{
+width: 100px;
+height: 100px;
+background-color: green;
+border-radius: 50%;
+}
+.upparrow
+{
+width: 0;
+height: 0;
+border-left: 50px solid white;
+border-right: 50px solid white;
+border-bottom: 100px solid blue;
+}
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 50px solid white;
+	border-right: 50px solid white;
+	border-top: 100px solid green;
+}
+.triangle-left {
+	width: 0;
+	height: 0;
+	border-top: 50px solid transparent;
+	border-right: 100px solid red;
+	border-bottom: 50px solid transparent;
+}
+.triangle-right {
+	width: 0;
+	height: 0;
+	border-top: 50px solid transparent;
+	border-left: 100px solid orange;
+	border-bottom: 50px solid transparent;
+}
+.redcircleoutline{
+width: 100px;
+height: 100px;
+background-color: transparent;;
+border-radius: 50%;
+border: 10px solid red;
+margin: -50px;
+}
+.smallredcircle
+{
+width: 50px;
+height: 50px;
+background-color: red;
+border-radius: 50%;
+}
+.Bigbluesquare
+{
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  float: left;
+}
+.largetriangle-down {
+	width: 0;
+	height: 0;
+	border-left: 75px solid white;
+	border-right: 75px solid white;
+	border-top: 150px solid green;
+}
