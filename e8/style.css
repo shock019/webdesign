@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+  background-color: black;
+}
+/* Position Options
+  static - default position
+  absolute - positions something in    relation to the window or its position parent element
+  relative - positions relative to where it falls on the page
+  fixed - positions it and fixes it at that point, scroll does not matter
+*/
+div {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+}
+.relative {
+  background-color: red;
+  position: relative;
+  top: 200px;
+  left: 200px;
+}
+.relative2 {
+  width: 400px;
+  height: 400px;
+  background-color: blue;
+  position: relative;
+  top: 400px;
+  left: 800px;
+}
+.absolute {
+  background-color: aquamarine;
+  position: absolute;
+  top: 4000px;
+  left: 400px;
+}
+.absolute2 {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.fixed {
+  background-color: firebrick;
+  position: fixed;
+  top: 200px;
+  left: 800px;
+}
+
+/* EXERCISE 8 CSS */
+/* has relative positioning to move the divs contained within */
+.container {
+  width: 0;
+  height: 0;
+  background-color: none;
+  position: relative;
+  top: 90px;
+  left: 600px;
+}
+.left-circle, .right-circle, .heart
+{
+  background-color: red;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+}
+.left-circle {
+  border-radius: 100%;
+
+  top: 251px;
+  left: 0px;
+
+}
+.right-circle {
+  border-radius: 100%;
+  top: 251px;
+  left: 138px;
+
+}
+.heart {
+  transform: rotate(45deg);
+  top: 321px;
+  left: 69px;
+
+}
+.left-circleoutline, .right-circleoutline, .heartoutline
+{
+  background-color: silver;
+  position: absolute;
+  width: 250px;
+  height: 250px;
+}
+.left-circleoutline {
+  border-radius: 100%;
+
+  top: 230px;
+  left: -44px;
+
+}
+.right-circleoutline {
+  border-radius: 100%;
+  top: 232px;
+  left: 135px;
+
+}
+.heartoutline {
+  transform: rotate(45deg);
+  top: 321px;
+  left: 46px;
+
+}
+.container2 {
+  width: 0;
+  height: 0;
+  background-color: none;
+  position: relative;
+  top: 90px;
+  left: 600px;
+}
+.left-circle2, .right-circle2, .heart2
+{
+  background-color: red;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+}
+.left-circle2 {
+  border-radius: 100%;
+
+  top: 251px;
+  left: 478px;
+
+}
+.right-circle2 {
+  border-radius: 100%;
+  top: 251px;
+  left: 617px;
+
+
+}
+.heart2 {
+  transform: rotate(45deg);
+  top: 321px;
+  left: 547px;
+
+}
+.container3 {
+  width: 0;
+  height: 0;
+  background-color: none;
+  position: relative;
+  top: 90px;
+  left: 600px;
+}
+.left-circle3, .right-circle3, .heart3
+{
+  background-color: red;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+}
+.left-circle3 {
+  border-radius: 100%;
+
+  top: 251px;
+  left: -476px;
+
+}
+.right-circle3 {
+  border-radius: 100%;
+  top: 251px;
+  left: -336px;
+
+}
+.heart3 {
+  transform: rotate(45deg);
+  top: 321px;
+  left: -406px;
+
+}
