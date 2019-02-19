@@ -1,0 +1,76 @@
+div {
+  float:left;
+
+}
+.red{
+  background-color: red;
+  width: 100px;
+  height: 100px;
+}
+.black {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+}
+
+.board {
+  width: 900px;
+}
+
+.header {
+  width: 900px;
+  height: 150px;
+  background-color: red;
+  box-sizing: border-box;
+  border: 10px solid white;
+}
+.container {
+  width: 900px;
+
+}
+.body1 {
+  width: 300px;
+  height: 800px;
+  background-color: red;
+  box-sizing: border-box;
+  border: 10px solid white;
+}
+.under
+{
+  width: 900px;
+  height: 40px;
+  background-color: red;
+  box-sizing: border-box;
+  border: 10px solid white;
+  background-color: red;
+}
+
+.courtside
+{
+  width: 110px;
+  height: 510px;
+  box-sizing: border-box;
+  border: 5px solid white;
+  background-color: red;
+}
+.uppercentercourt
+{
+  width: 680px;
+
+}
+.backcourt
+{
+  height: 200px;
+  width: 680px;
+  box-sizing: border-box;
+  border: 5px solid white;
+  background-color: red;
+}
+.innersides
+{
+  height: 310px;
+  width: 340px;
+  box-sizing: border-box;
+  border: 5px solid white;
+  background-color: red;
+}
