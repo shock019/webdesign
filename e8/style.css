@@ -110,6 +110,60 @@ div {
   left: 46px;
 
 }
+.left-circleoutline2, .right-circleoutline2, .heartoutline2
+{
+  background-color: silver;
+  position: absolute;
+  width: 250px;
+  height: 250px;
+}
+.left-circleoutline2 {
+  border-radius: 100%;
+
+  top: 230px;
+  left: 430px;
+
+}
+.right-circleoutline2 {
+  border-radius: 100%;
+  top: 232px;
+  left: 610px;
+
+}
+.heartoutline2 {
+  transform: rotate(45deg);
+  top: 321px;
+  left: 521px;
+
+}
+
+.left-circleoutline3, .right-circleoutline3, .heartoutline3
+{
+  background-color: silver;
+  position: absolute;
+  width: 250px;
+  height: 250px;
+}
+.left-circleoutline3 {
+  border-radius: 100%;
+
+  top: 230px;
+  left: -516px;
+
+}
+.right-circleoutline3 {
+  border-radius: 100%;
+  top: 232px;
+  left: -336px;
+
+}
+.heartoutline3 {
+  transform: rotate(45deg);
+  top: 321px;
+  left: -425px;
+
+}
+
 .container2 {
   width: 0;
   height: 0;
