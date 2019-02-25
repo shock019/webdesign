@@ -96,4 +96,47 @@ border: 10px solid white;
   box-sizing: border-box;
   border: 10px solid white;
 }
+.blogheader {
+  width: 900px;
+  height: 200px;
+  background-color: red;
+  box-sizing: border-box;
+  border: 10px solid white;
+}
+.blogbodycontainer{
+  height: 650px;
+  width: 650px;
+}
+.blogsidehud
+{ width: 250px;
+  height: 600px;
+}
+.blogbody
+{
+  width: 650px;
+  height: 500px;
+  background-color: red;
+  box-sizing: border-box;
+  border: 10px solid white;
+}
+.blogbodyend
+{
+  width: 650px;
+  height: 100px;
+  background-color: red;
+  box-sizing: border-box;
+  border: 10px solid white;
+}
+.blogsidecontent
+{
+  width: 250px;
+  height: 300px;
+  background-color: red;
+  box-sizing: border-box;
+  border: 10px solid white;
+}
+.blogbody2
+{
+  height: 900px;
+  width: 600px;
 }

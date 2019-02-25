@@ -24,3 +24,20 @@ p{
 .Quote{
   font-style: italic;
 }
+a:link {
+  font-family: sans-serif;
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  text-decoration: underline;
+  color: red;
+}
+a:active {
+  text-decoration: underline;
+  color: yellow;
+}
+a:visited {
+  color: Darkblue;
+  text-decoration: underline;
+}
