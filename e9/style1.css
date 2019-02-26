@@ -14,7 +14,7 @@ div {
 }
 
 .board {
-  width: 900px;
+  width: 800px;
 }
 
 .header {
@@ -139,4 +139,118 @@ border: 10px solid white;
 {
   height: 900px;
   width: 600px;
+}
+.californiasheetbody
+{
+  width: 415px;
+  height: 720px;
+  background-color: white;
+  box-sizing: border-box;
+  border-left: 10px solid red;
+  border-top: 10px solid red;
+  border-right: 5px solid red;
+  border-bottom: 10px solid red;
+
+}
+.entiresheet
+{
+  width: 1240px;
+  height: 710px;
+  background-color: red;
+  box-sizing: border-box;
+  border-left: 10px solid red;
+  border-top: 10px solid red;
+  border-right: 5px solid red;
+
+
+}
+.innerupperrightcorner
+{
+  width: 300px;
+  height: 300px;
+
+}
+.row1
+{
+  width: 300px;
+  height: 100px;
+}
+.basicrectange
+{
+  width: 50px;
+  height: 100px;
+  background-color: red;
+  box-sizing: border-box;
+  border: 1px solid white
+}
+.row2
+{
+  width: 300px;
+  height: 200px;
+}
+.downrow1
+{
+  width: 50px;
+  height: 100px;
+}
+.longrectangle
+{
+  width: 50px;
+  height: 200px;
+  background-color: red;
+  box-sizing: border-box;
+  border: 1px solid white
+}
+.largerectangle
+{
+  width: 100px;
+  height: 200px;
+  background-color: red;
+  box-sizing: border-box;
+  border: 1px solid white
+}
+.longandlargerectangle
+{
+  width: 100px;
+  height: 300px;
+  background-color: red;
+  box-sizing: border-box;
+  border: 1px solid white
+}
+.uppersectionfirstsheet
+{
+  width: 400px;
+  height: 300px;
+}
+.firstsheet2ndrow
+{
+  height: 200px;
+  width: 400px;
+}
+.row3
+{
+  width: 400px;
+  height: 100px;
+}
+.row4
+{
+  width: 400px;
+  height: 200px;
+}
+.californiasheetbody2
+{
+  width: 420px;
+  height: 720px;
+  background-color: white;
+  box-sizing: border-box;
+  border-left: 10px solid red;
+  border-top: 10px solid red;
+  border-right: 10px solid red;
+  border-bottom: 10px solid red;
+
+}
+.newcontainer
+{
+  width: 1250px;
+  height: 720px
 }
