@@ -1,11 +1,11 @@
 body{
   background-color: teal;
   font-family: 'Fahkwang', sans-serif;
-  font-size: 24px;
+  font-size: 30px;
 }
 div{
   width: 50vw;
-  margin: 50px auto;
+  margin: 100px auto;
   color: yellow;
 }
 h1 {
@@ -31,7 +31,7 @@ a:link {
 }
 a:hover {
   text-decoration: underline;
-  color: red;
+  color: rgb(184,0,0);
 }
 a:active {
   text-decoration: underline;
@@ -40,4 +40,6 @@ a:active {
 a:visited {
   color: Darkblue;
   text-decoration: underline;
+  text-decoration: italic;
+
 }
