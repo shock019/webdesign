@@ -50,7 +50,7 @@ div {
   width: 110px;
   height: 510px;
   box-sizing: border-box;
-  border: 5px solid white;
+  border: 1px solid white;
   background-color: red;
 }
 .uppercentercourt
@@ -63,7 +63,7 @@ div {
   height: 200px;
   width: 680px;
   box-sizing: border-box;
-  border: 5px solid white;
+  border: 1px solid white;
   background-color: red;
 }
 .innersides
@@ -71,7 +71,7 @@ div {
   height: 310px;
   width: 340px;
   box-sizing: border-box;
-  border: 5px solid white;
+  border: 1px solid white;
   background-color: red;
 }
 .whitespace{
