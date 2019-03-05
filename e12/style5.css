@@ -1,0 +1,35 @@
+h1
+{
+  font-family: 'Teko', sans-serif;
+  text-align: right;
+  font-size: 74px;
+  margin-right: 50px;
+  color: white;
+}
+h2{
+  font-family: 'Teko', sans-serif;
+  text-align: right;
+  font-size: 50px;
+  margin-top: 5px;
+  margin-right: 50px;
+  color: white;
+}
+p
+{
+
+    font-family: 'Teko', sans-serif;
+    text-align: right;
+    font-size: 40px;
+    margin-right: 50px;
+    margin-left: 100px;
+
+
+}
+body
+{
+  background-color: red;
+}
+.marginetop
+{
+  margin-top: 100px;
+}
