@@ -3,7 +3,7 @@ h1
   font-family: 'Open Sans', sans-serif;
   text-align: center;
   font-size: 74px;
-  margin: 0;
+  margin-top: 400px;
 }
 h2{
   font-family: 'Open Sans', sans-serif;
@@ -25,4 +25,8 @@ p
 .marginetop
 {
   margin-top: 100px;
+}
+.bottomheader
+{
+  height: 400px;
 }
