@@ -21,8 +21,14 @@ h3{
 p{
   text-indent: 50px;
 }
-.Quote{
+.Quote1{
   font-style: italic;
+  color: black;
+}
+.Quote2{
+  font-style: italic;
+  color: yellow;
+
 }
 a:link {
   font-family: sans-serif;
