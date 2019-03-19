@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5, h6{
   }
   main {
     width: 40vw;
-    margin: 40px auto;
+    margin: 50px auto;
   }
 }
 @media only screen and (max-width: 1400px) {
@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6{
     margin: 30px auto;
   }
   main {
-    width: 50vw;
+    width: 60vw;
   }
 }
 @media only screen and (max-width: 1200px) {
@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5, h6{
     margin: 20px auto;
   }
   main {
-    width: 60vw;
+    width: 70vw;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6{
     margin: 10px auto;
   }
   main {
-    width: 70vw;
+    width: 80vw;
   }
 }
 @media only screen and (max-width: 500px) {
