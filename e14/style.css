@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6{
 
 @media only screen and (max-width: 1900px) {
   body {
-    background-color: black;
+    background-color: orange;
 
   }
   main {
@@ -79,7 +79,7 @@ h1, h2, h3, h4, h5, h6{
 }
 @media only screen and (max-width: 500px) {
   body {
-    background-color: black;
+    background-color: pink;
     font-size: 16px;
     margin: 5px auto;
   }
