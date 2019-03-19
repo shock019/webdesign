@@ -53,39 +53,43 @@ h1, h2, h3, h4, h5, h6{
   body {
     background-color: red;
     font-size: 22px;
-    margin: 30px auto;
+
   }
   main {
     width: 60vw;
+    margin: 30px auto;
   }
 }
 @media only screen and (max-width: 1200px) {
   body {
     background-color: darkblue;
     font-size: 18px;
-    margin: 20px auto;
+
   }
   main {
     width: 70vw;
+    margin: 20px auto;
   }
 }
 @media only screen and (max-width: 600px) {
   body {
     background-color: dodgerblue;
     font-size: 14px;
-    margin: 5px auto;
+
   }
   main {
     width: 80vw;
+    margin: 5px auto;
   }
 }
 @media only screen and (max-width: 500px) {
   body {
     background-color: pink;
     font-size: 14px;
-    margin: 2px auto;
+
   }
   main {
     width: 90vw;
+    margin: 2px auto;
   }
 }
