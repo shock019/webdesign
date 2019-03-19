@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5, h6{
   body {
     background-color: dodgerblue;
     font-size: 16px;
-    margin: 35px auto;
+    margin: 30px auto;
   }
   main {
     width: 70vw;
@@ -76,6 +76,6 @@ media only screen and (max-width: 500px) {
   main {
     width: 80vw;
     color: white;
-    margin: 30px auto;
+    margin: 20px auto;
   }
 }
