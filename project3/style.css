@@ -1,0 +1,106 @@
+body{
+  background-color: red
+
+  font-family: 'Fahkwang', sans-serif;
+  font-size: 24px;
+}
+main{
+  width: 50vw;
+  margin: 50px auto;
+  color: black;
+}
+h1 {
+  color: black;
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+h3{
+  text-align: center;
+}
+p{
+  text-indent: 50px;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Oswald', sans-serif;
+}
+
+
+@media only screen and (max-width: 4000px) {
+  body {
+    background-color: white;
+
+  }
+  main {
+    width: 40vw;
+    margin: 40px auto;
+  }
+  img {
+    width: 700px;
+    image-orientation: center;
+  }
+
+}
+@media only screen and (max-width: 1700px) {
+  body {
+    background-color: white;
+    font-size: 26px;
+    margin: 40px auto;
+
+  }
+  main {
+    width: 50vw;
+    margin: 30px auto;
+  }
+  img {
+    width: 850px;
+    align: center;
+  }
+
+}
+@media only screen and (max-width: 1400px) {
+  body {
+    background-color: white;
+    font-size: 22px;
+
+  }
+  main {
+    width: 60vw;
+    margin: 20px auto;
+  }
+  img {
+    width: 800px;
+    align: center;
+  }
+}
+@media only screen and (max-width: 1020px) {
+  body {
+    background-color: white;
+    font-size: 18px;
+
+  }
+  main {
+    width: 70vw;
+    margin: 10px auto;
+  }
+  img {
+    width: 500px;
+    align: center;
+  }
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color:white;
+    font-size: 14px;
+
+  }
+  main {
+    width: 80vw;
+    margin: 2px auto;
+  }
+  img {
+    width: 400px;
+    align: center;
+  }
+}
