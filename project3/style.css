@@ -8,6 +8,7 @@ main{
   width: 50vw;
   margin: 50px auto;
   color: black;
+  text-align: center;
 }
 h1 {
   color: black;
@@ -21,11 +22,16 @@ h3{
 }
 p{
   text-indent: 50px;
+  text-align: left;
 }
 h1, h2, h3, h4, h5, h6{
   font-family: 'Oswald', sans-serif;
 }
+.small
+{
 
+  width: 50%;
+}
 
 @media only screen and (max-width: 4000px) {
   body {
@@ -57,6 +63,13 @@ h1, h2, h3, h4, h5, h6{
     width: 850px;
     align: center;
   }
+  .small
+  {
+
+    width: 50%;
+    float: left;
+  }
+
 
 }
 @media only screen and (max-width: 1400px) {
