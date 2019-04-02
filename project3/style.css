@@ -89,6 +89,12 @@ h1, h2, h3, h4, h5, h6{
     width: 800px;
     align: center;
   }
+  .small
+  {
+
+    width: 100%;
+    margin-right: 6px;
+  }
 }
 @media only screen and (max-width: 1020px) {
   body {
@@ -111,13 +117,22 @@ h1, h2, h3, h4, h5, h6{
     font-size: 14px;
 
   }
+  h1{
+    font-size: 35px;
+  }
   main {
     width: 80vw;
     margin: 2px auto;
-    font-size: 350px;
+    font-size: 30px;
   }
   img {
     width: 350px;
     align: center;
+  }
+  .small
+  {
+
+    width: 100%;
+    margin-right: 6px;
   }
 }
