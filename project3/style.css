@@ -48,6 +48,12 @@ h1, h2, h3, h4, h5, h6{
     width: 700px;
     image-orientation: center;
   }
+  .small
+  {
+
+    width: 50%;
+    float: left;
+  }
 
 
 }
@@ -95,6 +101,7 @@ h1, h2, h3, h4, h5, h6{
     width: 100%;
     margin-right: 6px;
   }
+
 }
 @media only screen and (max-width: 1020px) {
   body {
@@ -109,6 +116,12 @@ h1, h2, h3, h4, h5, h6{
   img {
     width: 500px;
     align: center;
+  }
+  .small
+  {
+
+    width: 100%;
+    margin-right: 6px;
   }
 }
 @media only screen and (max-width: 600px) {
