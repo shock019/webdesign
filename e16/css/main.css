@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+
+}
+.full {
+  width: 100vw;
+  height: 100vh;
+}
+#list-name {
+  background-color: whitesmoke;
+}
+#bird-5 {
+  transition: all 2s ease;
+}
+.tomato {
+  background-color: white;
+}
+.black {
+  background-color: black;
+}
+#bird-4 {
+    transition: all 2s ease;
+}
+h1 {
+  font-size: 5em;
+  margin: 0;
+  padding: 40vh 0 0 0;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-weight: bold;
+  transition: all 2s ease;
+
+}
+span {
+  transition: all 2s ease;
+  cursor: pointer;
+}
+p {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+
+}
+.green {
+  background-color: green;
+}
+#bird-3 {
+    transition: all 2s ease;
+}
+.grey{
+  background-color: grey;
+}
+.yellow{
+  background-color: orange;
+}
+#bird-2 {
+    transition: all 2s ease;
+}
+#bird-1 {
+    transition: all 2s ease;
+}
+.red {
+  background-color: red;
+}
