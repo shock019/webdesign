@@ -6,6 +6,13 @@ body {
 	width: 50vw;
 	margin: 0 auto;
 	padding: 100px 0 0 0;
+
+  background: url(../image/Chickennoodle.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
 }
 
 h1, p {
@@ -55,7 +62,7 @@ input {
   position: absolute;
   top: 0;
   left: 0;
-  right: 0; 
+  right: 0;
   bottom: 0;
   margin: auto;
   min-width: 50%;
