@@ -7,6 +7,7 @@ body {
 	width: 100vw;
 	height: 60vw
 	margin: 0 auto;
+	margin-top: 20vw;
 	padding: 100px 0 0 0;
 
 align-self: center;
@@ -31,6 +32,7 @@ input {
 	font-size: 30px;
 	padding: 25px 0;
 	text-align: center;
+	align-self: center;
 }
 .button {
 	width: 150px;
