@@ -32,7 +32,7 @@ input {
 	font-size: 30px;
 	padding: 25px 0;
 	text-align: center;
-	align-self: center;
+	align: center;
 }
 .button {
 	width: 150px;
