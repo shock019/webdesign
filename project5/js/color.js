@@ -5,17 +5,17 @@ $(document).ready(function() {
 });
 
 function colorGuess() {
-	var namearray = ["chicken noodle","tomato basil","butternut squash"];
-	var imagearray = ["url(image/Chickennoodle.jpg)","url(image/tomatobasil.jpg)","url(image/butternutsquash.jpg)"];
-	var randomNumber = Math.floor(Math.random() * imagearray.length);
-	console.log(imagearray[randomNumber]);
-	$("#container").css("background-image", imagearray[randomNumber]);
+	var namearray = ["I could have told you that!","Not in This Life!", "I could not understand the question, try again and this time try to enunciate", "Solve it your self!", "How should I know?"];
+
+	var randomNumber = Math.floor(Math.random() * namearray.length);
+	//console.log(imagearray[randomNumber]);
+
 	//console.log(stripped);
 	//$('body').css('bg', colorArray[randomNumber]);
 	$('#submit').click(function() {
 		var input = $('input').val();
 		var guess = input.toLowerCase();
-		$("#container").css("background-image", imagearray[randomNumber]);
+
 		 console.log(guess);
 		 if (guess == namearray[randomNumber]) {
 		 	$('h1').text(guess + ' is right!');
@@ -25,7 +25,7 @@ function colorGuess() {
 		 		location.reload(true);
 		 	});
 		 } else  {
-		 	$('h1').text(guess + ' is wrong');
+		 	$('h1').text(namearray[randomNumber]);
 		 	$('input').val('');
 		 	$('.button p').text('Play Again?');
 		 	$('#submit').click(function() {
