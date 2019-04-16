@@ -1,7 +1,7 @@
 body {
 	margin: 0;
-	color: black;
-	background-color: lightblue;
+	color: white;
+	background-color: black;
 }
 #container {
 	width: 100vw;
@@ -34,7 +34,7 @@ input {
 }
 .button {
 	width: 150px;
-	background-color: green;
+	background-color: blue;
 	color: white;
 	border-radius: 5px;
 	padding: 10px 15px;

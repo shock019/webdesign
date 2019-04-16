@@ -5,8 +5,9 @@ $(document).ready(function() {
 });
 
 function colorGuess() {
-	var namearray = ["chicken noodle","tomato basil","butternut squash"];
-	var imagearray = ["url(image/Chickennoodle.jpg)","url(image/tomatobasil.jpg)","url(image/butternutsquash.jpg)"];
+	var namearray = ["chicken noodle","tomato basil","butternut squash","cheeseburger","eggdrop","potato leek","carrot and ginger"];
+	var imagearray = ["url(image/Chickennoodle.jpg)","url(image/tomatobasil.jpg)","url(image/butternutsquash.jpg)",
+"url(image/cheeseburgersoup.jpg)","url(image/eggdrop.jpg)","url(image/potatoleek.jpg)","url(image/carrotandginger.jpg)"];
 	var randomNumber = Math.floor(Math.random() * imagearray.length);
 	console.log(imagearray[randomNumber]);
 	$("#container").css("background-image", imagearray[randomNumber]);
