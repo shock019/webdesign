@@ -1,13 +1,16 @@
 body {
 	margin: 0;
-	color: black;
+	color: white;
+	background-color: black;
 }
 #container {
-	width: 50vw;
+	width: 100vw;
 	height: 60vw
 	margin: 0 auto;
+	margin-top: 20vw;
 	padding: 100px 0 0 0;
 
+align-self: center;
 
 
 }
@@ -23,16 +26,17 @@ h1 {
 	letter-spacing: 2px;
 }
 input {
-	width: 50vw;
+	width: 100vw;
 	height: 40px;
 	margin-top: 50px;
 	font-size: 30px;
 	padding: 25px 0;
 	text-align: center;
+	align: center;
 }
 .button {
 	width: 150px;
-	background-color: black;
+	background-color: blue;
 	color: white;
 	border-radius: 5px;
 	padding: 10px 15px;
