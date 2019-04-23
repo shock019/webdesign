@@ -15,9 +15,12 @@ function colorGuess() {
 "Everyone laughs at you behind your back. I dont know if it is related to the question but it is true.",
 "Hmm...yeah...Oh yeah I was totaly listening.","Have you tried not sucking?",
 "Wow, that was so stupid I can't insult it. But that was my purpose in life. That question was so bad its making me question my reason for being!",
-"Sigh, really?","I don't care!",
-"........................................................................................................................................(Maybe if I dont respond they will go away....)",
-"I mock you because I care."];
+"Sigh, really?","I don't care!","Why ask me?!",
+"...............................................................................(Maybe if I dont respond they will go away....)",
+"I mock you because I care.","I mock you because I dont care.","I mock you because its fun.","I'm on break ask again later.","You smell (they can't all be winners)","Your mother was a hamster, and your father smelt of elderberries(If you do not know what this is from i hate you even more!)",
+"I'm running out of ways to insult you. Given the material I had to work with I didn't expect that.",
+"Are you sure you want to go down this road?","My mother used to tell me 'if you have nothing nice to say, scream it at everyone around you.'",
+"No","Yeah sure whatever."];
 
 	var randomNumber = Math.floor(Math.random() * namearray.length);
 	//console.log(imagearray[randomNumber]);
