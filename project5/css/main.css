@@ -26,13 +26,14 @@ h1 {
 	letter-spacing: 2px;
 }
 input {
-	width: 100vw;
+	width: 84vw;
 	height: 40px;
 	margin-top: 50px;
+	margin-left: 8vw;
+	margin-right: 8vw;
 	font-size: 30px;
 	padding: 25px 0;
 	text-align: center;
-	align: center;
 }
 .button {
 	width: 150px;
